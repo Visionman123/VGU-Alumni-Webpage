@@ -14,6 +14,8 @@ import CLS from '../../assets/cls.png'
 import EclipseUp from '../../assets/elipse-up.png'
 import EclipseDown from '../../assets/elipse-down.png'
 import CareerBackground from '../../assets/career-background.png'
+import Curve from '../../assets/curve-in-study.png'
+import ReadingPhoto from '../../assets/readingbook.png'
 type Props = {}
 
 const index = (props: Props) => {
@@ -65,7 +67,7 @@ const index = (props: Props) => {
             <div className="overlap-group">
               <div className="frame">
                 <div className="rectangle-wrapper">
-                  <img className="img" alt="Rectangle" src="rectangle-16.svg" />
+                  <img className="img" alt="Rectangle" src={Curve} />
                 </div>
               </div>
               <div className="content">
@@ -188,11 +190,9 @@ const index = (props: Props) => {
             <div className="flexcontainer">
               <p className="text">
                 <span className="span">
-                  some of our <br />
+                  SOME OF OUR <br />
                 </span>
-              </p>
-              <p className="text">
-                <span className="text-wrapper-14">best courses</span>
+                <span className="text-wrapper-14">BEST COURSES</span>
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@ const index = (props: Props) => {
         </div>
         <div className="frame-about-us">
           <div className="overlap-7">
-            <div className="overlap-8">
+            <div className="overlap-8">s
               <div className="about-us">
                 <div className="text-wrapper-32">Welcome to VGU Alumni Network</div>
                 <div className="text-wrapper-33">About Us</div>
