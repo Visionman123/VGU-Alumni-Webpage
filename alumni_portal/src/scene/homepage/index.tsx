@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import HeroPhoto from '../../assets/hero.png'
+
 import Nam from '../../assets/nam.png'
 import p11 from '../../assets/1.1.png'
 import p12 from '../../assets/1.2.png'
@@ -15,12 +15,13 @@ import EclipseUp from '../../assets/elipse-up.png'
 import EclipseDown from '../../assets/elipse-down.png'
 import CareerBackground from '../../assets/career-background.png'
 import Curve from '../../assets/curve-in-study.png'
-import ReadingPhoto from '../../assets/readingbook.png'
+
 type Props = {}
 
 const index = (props: Props) => {
   return (
     <div className="home-page-fill">
+      
       <div className="div">
         <div className="overlap">
           <div className="frame-final">
@@ -63,7 +64,7 @@ const index = (props: Props) => {
             </div>
             <div className="rectangle" />
           </div>
-          <div className="frame-study">
+          {/* <div className="frame-study">
             <div className="overlap-group">
               <div className="frame">
                 <div className="rectangle-wrapper">
@@ -86,8 +87,8 @@ const index = (props: Props) => {
                 <img className="line" alt="Line" src="line-14.svg" />
               </div>
             </div>
-          </div>
-          <div className="study-highlighted">
+          </div> */}
+          {/* <div className="study-highlighted">
             <div className="register">
               <div className="group-person">
                 <div className="text-wrapper-7">Alicia Bethany</div>
@@ -195,12 +196,12 @@ const index = (props: Props) => {
                 <span className="text-wrapper-14">BEST COURSES</span>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="frame-career">
           <div className="overlap-2">
             <img className="frame-2" alt="Frame" src={CareerBackground} />
-            <div className="group">
+            {/* <div className="group">
               <p className="text-wrapper-15">
                 Đây là cơ hội tìm kiếm việc làm để bắt đầu hành trình mới của
                 những bạn sinh viên đã xuất sắc hoàn thành những năm học ròng
@@ -208,16 +209,16 @@ const index = (props: Props) => {
                 tạo cơ hội cho các bạn được thử sức mình.
               </p>
               <div className="text-wrapper-16">Jobs</div>
-            </div>
-            <div className="group-2">
+            </div> */}
+            {/* <div className="group-2">
               <p className="text-wrapper-17">
                 Với mục đích giúp sinh viên nâng cấp CV trong tương lai một cách
                 hiệu quả, Alumni chia sẻ và cung cấp các hoạt động tình nguyện
                 với nhiều hình thức từ trong nước đến ngoài nước.
               </p>
               <div className="text-wrapper-18">Volunteers</div>
-            </div>
-            <div className="group-3">
+            </div> */}
+            {/* <div className="group-3">
               <p className="text-wrapper-19">
                 Đây là cơ hội tìm kiếm việc làm để bắt đầu hành trình mới của
                 những bạn sinh viên đã xuất sắc hoàn thành những năm học ròng
@@ -225,17 +226,18 @@ const index = (props: Props) => {
                 tạo cơ hội cho các bạn được thử sức mình.
               </p>
               <div className="text-wrapper-20">Internships</div>
-            </div>
+            </div> */}
             <div className="text-wrapper-21">Career</div>
-            <p className="t-i-y-c-c-b-n-sinh">
+            {/* <p className="t-i-y-c-c-b-n-sinh">
               Tại đây, các bạn sinh viên sẽ có cơ hội tìm kiếm các công việc
               chất lượng với thù lao vô cùng xịn xò do các anh chị cựu giới
               thiệu. <br />
               Ngoài ra, mọi thông tin chi tiết về cách thức đăng kí sẽ được đề
               cập <br />
               một cách cụ thể để các bạn sinh viên có thể tiếp cận dễ dàng.
-            </p>
+            </p> */}
             <div className="text-wrapper-22">Unlock potential, fuel your</div>
+            
             <img
               className="ellipse-down"
               alt="Ellipse down"
@@ -243,9 +245,10 @@ const index = (props: Props) => {
             />
           </div>
         </div>
+        
         <div className="frame-event">
           <div className="overlap-3">
-            <div className="overlap-group-wrapper">
+            {/* <div className="overlap-group-wrapper">
               <div className="overlap-group-2">
                 <div className="frame-logo-company">
                   <img className="zikshaa" alt="Zikshaa" src={Zikshaa} />
@@ -258,13 +261,13 @@ const index = (props: Props) => {
                 </div>
                 <img className="icon" alt="Icon" src="icon.png" />
               </div>
-            </div>
+            </div> */}
             <img className="ellipse-up" alt="Ellipse up" src={EclipseUp} />
             <div className="rectangle-2" />
             <div className="event">
               <div className="overlap-4">
                 <div className="content-2">
-                  <p className="lorem-ipsum-dolor">
+                  <p className="kinh-t-sao-l-i-th-s">
                     <span className="text-wrapper-23">Lorem ipsum,</span>
                     <span className="text-wrapper-24">
                       {" "}
@@ -275,16 +278,15 @@ const index = (props: Props) => {
                       enim.
                     </span>
                   </p>
-                  <img className="icon-2" alt="Icon" src="icon-2.png" />
+                  {/* <img className="icon-2" alt="Icon" src="icon-2.png" /> */}
                 </div>
                 <div className="group-4">
                   <img className="element" alt="Element" src={p31} />
                   <img className="element-2" alt="Element" src={p32}/>
                   <div className="text-wrapper-25">03</div>
-                  <div className="text-wrapper-26">Alumni Team Building</div>
+                  <div className="text-wrapper-30">Alumni Team Building</div>
                 </div>
               </div>
-              <img className="line-2" alt="Line" src="line.svg" />
             </div>
             <div className="event-2">
               <div className="overlap-5">
@@ -302,22 +304,22 @@ const index = (props: Props) => {
                       bạn khai thác tốt về điểm mạnh và yếu của bản thân.
                     </span>
                   </p>
-                  <img className="icon-3" alt="Icon" src="icon-3.png" />
+                  {/* <img className="icon-3" alt="Icon" src="icon-3.png" /> */}
                 </div>
                 <div className="group-5">
                   <img className="element-3" alt="Element" src={p22} />
                   <img className="element-4" alt="Element" src={p21} />
                   <div className="text-wrapper-28">02</div>
                   <div className="text-wrapper-29">
-                    Interview Mastery Workshop nha
+                    Interview Mastery Workshop
                   </div>
                 </div>
               </div>
-              <img className="line-3" alt="Line" src="image.svg" />
+           
             </div>
             <div className="event-3">
               <div className="overlap-6">
-                <div className="content-4">
+                <div className='content-4'>
                   <p className="kinh-t-sao-l-i-th-s">
                     <span className="text-wrapper-23">
                       “Kinh tế sao lại thế”{" "}
@@ -331,8 +333,8 @@ const index = (props: Props) => {
                       hay ho và mới mẻ dành cho từng ngành học.
                     </span>
                   </p>
-                  <img className="icon-4" alt="Icon" src="icon-4.png" />
-                </div>
+                  {/* <img className="icon-4" alt="Icon" src="icon-4.png" /> */}
+                  </div>
                 <div className="group-4">
                   <img className="element-5" alt="Element" src={p12} />
                   <img className="element-2" alt="Element" src={p11} />
@@ -340,7 +342,7 @@ const index = (props: Props) => {
                   <div className="text-wrapper-30">Alumni Talk</div>
                 </div>
               </div>
-              <img className="line-2" alt="Line" src="line-2.svg" />
+              
             </div>
             <div className="frame-3">
               <div className="text-wrapper-31">Events</div>
@@ -352,21 +354,13 @@ const index = (props: Props) => {
         </div>
         <div className="frame-about-us">
           <div className="overlap-7">
-            <div className="overlap-8">s
+            <div className="overlap-8">
               <div className="about-us">
                 <div className="text-wrapper-32">Welcome to VGU Alumni Network</div>
                 <div className="text-wrapper-33">About Us</div>
                 <div className="content-5">
                   <p className="c-th-nh-l-p-v-o-nh">
-                    Được thành lập vào những năm đầu của đại học Việt Đức,{" "}
-                    <br />
-                    VGU Alumni Network mang theo sứ mệnh là tạo ra một môi
-                    trường <br />
-                    dành cho các anh chị cựu và các bạn sinh viên, <br />
-                    từ đó giúp các bạn có thêm cơ hội được giao lưu và học hỏi
-                    thêm <br />
-                    về những kiến thức và kinh nghiệm mà các anh chị đi trước đã
-                    trải qua.
+                    Được thành lập vào những năm đầu của đại học Việt Đức VGU Alumni Network mang theo sứ mệnh là tạo ra một môi trường dành cho các anh chị cựu và các bạn sinh viên, từ đó giúp các bạn có thêm cơ hội được giao lưu và học hỏi thêm về những kiến thức và kinh nghiệm mà các anh chị đi trước đã trải qua.
                   </p>
 
                   <div className="button-continues">
@@ -376,10 +370,11 @@ const index = (props: Props) => {
                   </div>
                 </div>
               </div>
-              <img className="nam" alt="Nam" src={Nam} />
+              { <img className="nam" alt="Nam" src={Nam} /> }
             </div>
           </div>
         </div>
+        
         <div className="frame-intro">
           <div className="intro">
             <div className="overlap-9">
@@ -399,7 +394,7 @@ const index = (props: Props) => {
                     </div>
                     <div className="text-wrapper-38">vgu new playground</div>
                     <p className="text-wrapper-39">
-                      Figma ipsum component variant main layer
+                      Figma ipsum component variant main layer 
                     </p>
                   </div>
                 </div>
@@ -407,7 +402,6 @@ const index = (props: Props) => {
             </div>
           </div>
           <header className="header">
-            <img className="line-5" alt="Line" src="line-3.svg" />
             <img
               className="icon-person-2"
               alt="Icon person"
@@ -431,6 +425,7 @@ const index = (props: Props) => {
           </header>
         </div>
       </div>
+     
     </div>
   );
 }
